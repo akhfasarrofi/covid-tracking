@@ -1,0 +1,54 @@
+.home {
+  background: radial-gradient(
+    circle,
+    rgba(241, 243, 250, 1) 0%,
+    rgba(255, 248, 254, 1) 100%
+  );
+  padding: 20px;
+}
+
+.home__dropdown {
+  background-color: white;
+}
+
+.home__dropdown>.MuiOutlinedInput-root{
+  border-radius: 10px;
+}
+
+.home__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.home__header > h2 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+
+.home__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__map {
+  margin-bottom: 1rem;
+}
+
+.home__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.home__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 990px) {
+  .home {
+    flex-direction: column;
+  }
+}
