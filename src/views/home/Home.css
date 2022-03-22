@@ -52,3 +52,8 @@
     flex-direction: column;
   }
 }
+
+.app__information>.MuiPaper-elevation1{
+  max-height: 400px;
+  overflow: auto;
+}

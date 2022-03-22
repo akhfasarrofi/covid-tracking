@@ -45,7 +45,7 @@ const App: React.FC = () => {
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs value={value} onChange={handleChange}>
           <Tab label="Home" {...a11yProps(0)} />
           <Tab label="Store" {...a11yProps(1)} />
         </Tabs>
